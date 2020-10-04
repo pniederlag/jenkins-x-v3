@@ -27,6 +27,8 @@ environments:
       enabled: false
       production: false
   key: dev
+  owner: pniederlag
+  repository: jenkins-x-v3
 - ingress:
     domain: ""
     externalDNS: false
@@ -55,6 +57,8 @@ ingress:
     enabled: false
     production: false
 kaniko: true
+pipelineUser:
+  username: jenkinsxbot
 repository: bucketrepo
 secretStorage: vault
 storage:
