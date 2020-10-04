@@ -64,7 +64,7 @@ data:
         - needs-rebase
         repos:
         - pniederlag/jenkins-x-v3
-      target_url: http://deck-jx.-jx.
+      target_url: http://deck-jx.-jx.192.168.39.197.nip.io
 kind: ConfigMap
 metadata:
   creationTimestamp: null
